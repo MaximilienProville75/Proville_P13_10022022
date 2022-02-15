@@ -1,0 +1,14 @@
+@media (min-width: 720px) {
+    .account {
+      flex-direction: row;
+    }
+  
+    .accContentWrapper.cta {
+      flex: 0;
+    }
+  
+    .transactionButton {
+      width: 200px;
+    }
+  }
+  
