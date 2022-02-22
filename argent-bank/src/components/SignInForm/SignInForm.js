@@ -10,17 +10,17 @@ const SignInForm = () => {
         <h1>Sign In</h1>
         <form>
           <div className="inputWrapper">
-            <label for="username">Username</label>
+            <label htmlFor="username">Username</label>
             <input type="text" id="username" />
           </div>
           <div className="inputWrapper">
-            <label for="password">Password</label>
+            <label htmlFor="password">Password</label>
             <input type="password" id="password" />
           </div>
-          <div className="inputRemember">
+          {/* <div className="inputRemember">
             <input type="checkbox" id="remember-me" />
             <label for="remember-me">Remember me</label>
-          </div>
+          </div> */}
 
           {/* <a href="./user.html" className="signInButton">
             Sign In
