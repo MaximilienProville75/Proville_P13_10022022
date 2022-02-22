@@ -1,8 +1,8 @@
-import React from "react";
-import "../SignInForm/SignInForm.css";
+import React, { useState } from "react";
+import "./Login.css";
 import { FaRegUserCircle } from "react-icons/fa";
 
-const SignInForm = () => {
+const Login = () => {
   return (
     <div className="main bgDark">
       <section className="signInContent">
@@ -33,4 +33,4 @@ const SignInForm = () => {
   );
 };
 
-export default SignInForm;
+export default Login;

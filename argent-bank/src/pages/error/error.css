@@ -1,0 +1,35 @@
+.errorComplex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: -100px;
+}
+
+.logoError{
+    max-width: 750px;
+    width: 100%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.errorText{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(79, 183, 124)
+}
+
+.errorComplex a{
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 30px;
+    color: rgb(33, 86, 54);
+    margin-left: auto;
+    margin-right: auto;
+}
