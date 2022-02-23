@@ -4,8 +4,6 @@ import NavBar from "../../components/NavBar/NavBar";
 import CopyRights from "../../components/CopyRights/CopyRights";
 import Login from "../../components/Login/Login";
 
-import { Link } from "react-router-dom";
-
 const SignIn = () => {
   return (
     <>

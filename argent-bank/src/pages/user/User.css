@@ -11,4 +11,21 @@
       width: 200px;
     }
   }
-  
+
+.mainUserInfos{
+  text-align: center;
+}
+
+.inputWrapper2 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.edit-button2{
+  border-color: #00bc77;
+  background-color: #00bc77;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
